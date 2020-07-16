@@ -1,0 +1,88 @@
+<html>
+    <script src="https://code.jquery.com/jquery-2.1.4.min.js"></script>
+    <script src="static/js/index.js"></script>
+    <link rel="stylesheet" type="text/css" href="static/css/site_format.css">
+    <link rel="shortcut icon" href="static/images/icons/grumpig.png">
+    <head>
+        <!-- Global site tag (gtag.js) - Google Analytics -->
+        <script async src="https://www.googletagmanager.com/gtag/js?id=UA-172438125-1"></script>
+        <script>
+          window.dataLayer = window.dataLayer || [];
+          function gtag(){dataLayer.push(arguments);}
+          gtag('js', new Date());
+
+          gtag('config', 'UA-172438125-1');
+        </script>
+
+        <title>Mystic Team Builder</title>
+    </head>
+    <body>
+        <div class="sidenav">
+            <a href="/">Home</a>
+            <a href="/about">About</a>
+            <div class="grumpig_sidenav_container">
+                <img class="grumpig_sidenav" src="../static/images/sprites/grumpig.gif">
+            </div>
+        </div>
+
+        <div class="header">
+            <h1 id="pageHeader">Mystic Team Builder For VGC 2020</h1>
+        </div>
+
+        <div class="content">
+            <br>Start building your team below to get team suggestions from neural networks, based on recent
+            <a href="https://pokemonshowdown.com/">Pokemon Showdown!</a> replays.<br><br>
+
+            <div class="selection">
+                <form>
+                    <select id="p1" name="p1" class="pokemonSelect">
+                        <option value="None">None</option>
+                    </select>
+                    <select id="p2" name="p2" class="pokemonSelect">
+                        <option value="None">None</option>
+                    </select>
+                    <select id="p3" name="p3" class="pokemonSelect">
+                        <option value="None">None</option>
+                    </select>
+                    <select id="p4" name="p4" class="pokemonSelect">
+                        <option value="None">None</option>
+                    </select>
+                    <select id="p5" name="p5" class="pokemonSelect">
+                        <option value="None">None</option>
+                    </select>
+                    <select id="p6" name="p6" class="pokemonSelect">
+                        <option value="None">None</option>
+                    </select>
+                </form>
+
+                <div>
+                    <img id="i1" class="image">
+                    <img id="i2" class="image">
+                    <img id="i3" class="image">
+                    <img id="i4" class="image">
+                    <img id="i5" class="image">
+                    <img id="i6" class="image">
+                </div>
+            </div>
+
+            <div class="suggestions">
+                <h2>Suggested Pokemon</h2>
+                <p>
+                    Consider adding the following Pokemon to your team.<br>
+                    A higher score indicates a stronger suggestion.<br>
+                </p>
+                <a class="note" id="suggestedPokemonNote">Add a Pokemon to Your Team to Get Suggestions!</a>
+                <div class="suggestedPokemonImages">
+                </div>
+                <h2><br>Suggested Types</h2>
+                <p>
+                    Consider adding the following types to your team.<br>
+                    A higher score indicates a stronger suggestion.<br>
+                </p>
+                <a class="note" id="suggestedTypesNote">Add a Pokemon to the Team to Get Suggestions!</a>
+                <div class="suggestedTypeImages">
+                </div>
+            </div>
+        </div>
+    </body>
+</html>

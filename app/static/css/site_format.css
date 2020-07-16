@@ -1,0 +1,98 @@
+{
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+
+.content_container {
+    height: 100%;
+    width: 100%;
+}
+
+.header {
+    background-color: #515556;
+    color: #ffffff;
+    margin-left: 150px;
+    padding-left: 5px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    color: #c2a8cf;
+    font-style: italic;
+    width=100%;
+}
+
+.sidenav {
+    height: 100%;
+    width: 150px;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    background-color: #515556;
+    overflow-x: hidden;
+    padding-top: 100px;
+}
+
+.sidenav a {
+    display: inline-block;
+    width: 100%;
+    color: #c2a8cf;
+    padding: 16px;
+    text-decoration: none;
+}
+
+.sidenav a:hover {
+    background-color: #787c7d;
+    color: #000000;
+}
+
+.content {
+    margin-left: 150px;
+    padding-left: 5px;
+    background-color: #c2a8cf;
+    height: 100%;
+}
+
+.grumpig_sidenav {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.grumpig_sidenav_container {
+    display: inline-block;
+    width: 150px;
+    position: fixed;
+    top: 16px;
+}
+
+.suggestedPokemonImages {
+    display: table;
+}
+
+.image_container {
+    display: table-cell;
+    text-align: center;
+    padding-left: 5px;
+    padding-right: 5px;
+    padding-top: 10px;
+    border: 1px solid black;
+}
+
+.image_caption {
+    display: block;
+}
+
+.pokeImage {
+    display: block;
+    height: 100%;
+    vertical-align: middle;
+}
+
+.note {
+    font-weight: bold;
+}

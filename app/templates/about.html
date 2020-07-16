@@ -1,0 +1,54 @@
+<html>
+    <script src="https://code.jquery.com/jquery-2.1.4.min.js"></script>
+    <script src="static/js/index.js"></script>
+    <link rel="stylesheet" type="text/css" href="static/css/site_format.css">
+    <link rel="shortcut icon" href="static/images/icons/grumpig.png">
+    <head>
+        <!-- Global site tag (gtag.js) - Google Analytics -->
+        <script async src="https://www.googletagmanager.com/gtag/js?id=UA-172438125-1"></script>
+        <script>
+          window.dataLayer = window.dataLayer || [];
+          function gtag(){dataLayer.push(arguments);}
+          gtag('js', new Date());
+
+          gtag('config', 'UA-172438125-1');
+        </script>
+
+        <title>Mystic Team Builder - About</title>
+    </head>
+    <body>
+        <div class="content_container">
+            <div class="sidenav">
+                <a href="/">Home</a>
+                <a href="/about">About</a>
+                <div class="grumpig_sidenav_container">
+                    <img class="grumpig_sidenav" src="../static/images/sprites/grumpig.gif">
+                </div>
+            </div>
+
+            <div class="header">
+                <h1 id="pageHeader">About Mystic Team Builder</h1>
+            </div>
+
+            <div class="content">
+                <div class="text">
+                    <br>
+                    <h2>About the Team Builder</h2>
+                    This team builder was designed with the goal of providing a team building tool which provides suggestions
+                    which based on full teams, rather than solely based on usage statistics. Considering the usage statistics is
+                    good practice of course, but having an alternate perspective never hurts.<br><br>
+
+                    This team builder collects teams from publicly available Pokemon Showdown! replays and uses them to train a
+                    series of neural networks. These neural networks are then used to predict Pokemon which could be a good fit
+                    for any given partially complete team.<br>
+
+                    <h2>Acknowledgements</h2>
+                    <h3>Pokemon Showdown!</h3>
+                    This wouldn't be possible without <a href="pokemonshowdown.com">Pokemon Showdown!</a> and its collection of
+                    publicly available replays. Of course this also extends to the artists and contributors who helped to create
+                    the sprites.
+                </div>
+            </div>
+        </div>
+    </body>
+</html>

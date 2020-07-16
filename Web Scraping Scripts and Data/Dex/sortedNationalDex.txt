@@ -1,0 +1,1144 @@
+Abomasnow	Grass	Ice
+Abomasnow-Mega	Grass	Ice
+Abra	Psychic
+Absol	Dark
+Absol-Mega	Dark
+Accelgor	Bug
+Aegislash	Steel	Ghost
+Aegislash-Blade	Steel	Ghost
+Aerodactyl	Rock	Flying
+Aerodactyl-Mega	Rock	Flying
+Aggron	Steel	Rock
+Aggron-Mega	Steel
+Aipom	Normal
+Alakazam	Psychic
+Alakazam-Mega	Psychic
+Alcremie	Fairy
+Alcremie-Gmax	Fairy
+Alomomola	Water
+Altaria	Dragon	Flying
+Altaria-Mega	Dragon	Fairy
+Amaura	Rock	Ice
+Ambipom	Normal
+Amoonguss	Grass	Poison
+Ampharos	Electric
+Ampharos-Mega	Electric	Dragon
+Anorith	Rock	Bug
+Appletun	Grass	Dragon
+Appletun-Gmax	Grass	Dragon
+Applin	Grass	Dragon
+Araquanid	Water	Bug
+Araquanid-Totem	Water	Bug
+Arbok	Poison
+Arcanine	Fire
+Arceus	Normal
+Arceus-Bug	Bug
+Arceus-Dark	Dark
+Arceus-Dragon	Dragon
+Arceus-Electric	Electric
+Arceus-Fairy	Fairy
+Arceus-Fighting	Fighting
+Arceus-Fire	Fire
+Arceus-Flying	Flying
+Arceus-Ghost	Ghost
+Arceus-Grass	Grass
+Arceus-Ground	Ground
+Arceus-Ice	Ice
+Arceus-Poison	Poison
+Arceus-Psychic	Psychic
+Arceus-Rock	Rock
+Arceus-Steel	Steel
+Arceus-Water	Water
+Archen	Rock	Flying
+Archeops	Rock	Flying
+Arctovish	Water	Ice
+Arctozolt	Electric	Ice
+Ariados	Bug	Poison
+Armaldo	Rock	Bug
+Aromatisse	Fairy
+Aron	Steel	Rock
+Arrokuda	Water
+Articuno	Ice	Flying
+Audino	Normal
+Audino-Mega	Normal	Fairy
+Aurorus	Rock	Ice
+Avalugg	Ice
+Axew	Dragon
+Azelf	Psychic
+Azumarill	Water	Fairy
+Azurill	Normal	Fairy
+Bagon	Dragon
+Baltoy	Ground	Psychic
+Banette	Ghost
+Banette-Mega	Ghost
+Barbaracle	Rock	Water
+Barboach	Water	Ground
+Barraskewda	Water
+Basculin	Water
+Basculin-Blue-Striped	Water
+Bastiodon	Rock	Steel
+Bayleef	Grass
+Beartic	Ice
+Beautifly	Bug	Flying
+Beedrill	Bug	Poison
+Beedrill-Mega	Bug	Poison
+Beheeyem	Psychic
+Beldum	Steel	Psychic
+Bellossom	Grass
+Bellsprout	Grass	Poison
+Bergmite	Ice
+Bewear	Normal	Fighting
+Bibarel	Normal	Water
+Bidoof	Normal
+Binacle	Rock	Water
+Bisharp	Dark	Steel
+Blacephalon	Fire	Ghost
+Blastoise	Water
+Blastoise-Gmax	Water
+Blastoise-Mega	Water
+Blaziken	Fire	Fighting
+Blaziken-Mega	Fire	Fighting
+Blipbug	Bug
+Blissey	Normal
+Blitzle	Electric
+Boldore	Rock
+Boltund	Electric
+Bonsly	Rock
+Bouffalant	Normal
+Bounsweet	Grass
+Braixen	Fire
+Braviary	Normal	Flying
+Breloom	Grass	Fighting
+Brionne	Water
+Bronzong	Steel	Psychic
+Bronzor	Steel	Psychic
+Bruxish	Water	Psychic
+Budew	Grass	Poison
+Buizel	Water
+Bulbasaur	Grass	Poison
+Buneary	Normal
+Bunnelby	Normal
+Burmy	Bug
+Butterfree	Bug	Flying
+Butterfree-Gmax	Bug	Flying
+Buzzwole	Bug	Fighting
+Cacnea	Grass
+Cacturne	Grass	Dark
+Camerupt	Fire	Ground
+Camerupt-Mega	Fire	Ground
+Carbink	Rock	Fairy
+Carkol	Rock	Fire
+Carnivine	Grass
+Carracosta	Water	Rock
+Carvanha	Water	Dark
+Cascoon	Bug
+Castform	Normal
+Castform-Rainy	Water
+Castform-Snowy	Ice
+Castform-Sunny	Fire
+Caterpie	Bug
+Celebi	Psychic	Grass
+Celesteela	Steel	Flying
+Centiskorch	Fire	Bug
+Centiskorch-Gmax	Fire	Bug
+Chandelure	Ghost	Fire
+Chansey	Normal
+Charizard	Fire	Flying
+Charizard-Gmax	Fire	Flying
+Charizard-Mega-X	Fire	Dragon
+Charizard-Mega-Y	Fire	Flying
+Charjabug	Bug	Electric
+Charmander	Fire
+Charmeleon	Fire
+Chatot	Normal	Flying
+Cherrim	Grass
+Cherrim-Sunshine	Grass
+Cherubi	Grass
+Chesnaught	Grass	Fighting
+Chespin	Grass
+Chewtle	Water
+Chikorita	Grass
+Chimchar	Fire
+Chimecho	Psychic
+Chinchou	Water	Electric
+Chingling	Psychic
+Cinccino	Normal
+Cinderace	Fire
+Cinderace-Gmax	Fire
+Clamperl	Water
+Clauncher	Water
+Clawitzer	Water
+Claydol	Ground	Psychic
+Clefable	Fairy
+Clefairy	Fairy
+Cleffa	Fairy
+Clobbopus	Fighting
+Cloyster	Water	Ice
+Coalossal	Rock	Fire
+Coalossal-Gmax	Rock	Fire
+Cobalion	Steel	Fighting
+Cofagrigus	Ghost
+Combee	Bug	Flying
+Combusken	Fire	Fighting
+Comfey	Fairy
+Conkeldurr	Fighting
+Copperajah	Steel
+Copperajah-Gmax	Steel
+Corphish	Water
+Corsola	Water	Rock
+Corsola-Galar	Ghost
+Corviknight	Flying	Steel
+Corviknight-Gmax	Flying	Steel
+Corvisquire	Flying
+Cosmoem	Psychic
+Cosmog	Psychic
+Cottonee	Grass	Fairy
+Crabominable	Fighting	Ice
+Crabrawler	Fighting
+Cradily	Rock	Grass
+Cramorant	Flying	Water
+Cramorant-Gorging	Flying	Water
+Cramorant-Gulping	Flying	Water
+Cranidos	Rock
+Crawdaunt	Water	Dark
+Cresselia	Psychic
+Croagunk	Poison	Fighting
+Crobat	Poison	Flying
+Croconaw	Water
+Crustle	Bug	Rock
+Cryogonal	Ice
+Cubchoo	Ice
+Cubone	Ground
+Cufant	Steel
+Cursola	Ghost
+Cutiefly	Bug	Fairy
+Cyndaquil	Fire
+Darkrai	Dark
+Darmanitan	Fire
+Darmanitan-Galar	Ice
+Darmanitan-Galar-Zen	Ice	Fire
+Darmanitan-Zen	Fire	Psychic
+Dartrix	Grass	Flying
+Darumaka	Fire
+Darumaka-Galar	Ice
+Decidueye	Grass	Ghost
+Dedenne	Electric	Fairy
+Deerling	Normal	Grass
+Deino	Dark	Dragon
+Delcatty	Normal
+Delibird	Ice	Flying
+Delphox	Fire	Psychic
+Deoxys	Psychic
+Deoxys-Attack	Psychic
+Deoxys-Defense	Psychic
+Deoxys-Speed	Psychic
+Dewgong	Water	Ice
+Dewott	Water
+Dewpider	Water	Bug
+Dhelmise	Ghost	Grass
+Dialga	Steel	Dragon
+Diancie	Rock	Fairy
+Diancie-Mega	Rock	Fairy
+Diggersby	Normal	Ground
+Diglett	Ground
+Diglett-Alola	Ground	Steel
+Ditto	Normal
+Dodrio	Normal	Flying
+Doduo	Normal	Flying
+Donphan	Ground
+Dottler	Bug	Psychic
+Doublade	Steel	Ghost
+Dracovish	Water	Dragon
+Dracozolt	Electric	Dragon
+Dragalge	Poison	Dragon
+Dragapult	Dragon	Ghost
+Dragonair	Dragon
+Dragonite	Dragon	Flying
+Drakloak	Dragon	Ghost
+Drampa	Normal	Dragon
+Drapion	Poison	Dark
+Dratini	Dragon
+Drednaw	Water	Rock
+Drednaw-Gmax	Water	Rock
+Dreepy	Dragon	Ghost
+Drifblim	Ghost	Flying
+Drifloon	Ghost	Flying
+Drilbur	Ground
+Drizzile	Water
+Drowzee	Psychic
+Druddigon	Dragon
+Dubwool	Normal
+Ducklett	Water	Flying
+Dugtrio	Ground
+Dugtrio-Alola	Ground	Steel
+Dunsparce	Normal
+Duosion	Psychic
+Duraludon	Steel	Dragon
+Duraludon-Gmax	Steel	Dragon
+Durant	Bug	Steel
+Dusclops	Ghost
+Dusknoir	Ghost
+Duskull	Ghost
+Dustox	Bug	Poison
+Dwebble	Bug	Rock
+Eelektrik	Electric
+Eelektross	Electric
+Eevee	Normal
+Eevee-Gmax	Normal
+Eevee-Starter	Normal
+Eiscue	Ice
+Eiscue-Noice	Ice
+Ekans	Poison
+Eldegoss	Grass
+Electabuzz	Electric
+Electivire	Electric
+Electrike	Electric
+Electrode	Electric
+Elekid	Electric
+Elgyem	Psychic
+Emboar	Fire	Fighting
+Emolga	Electric	Flying
+Empoleon	Water	Steel
+Entei	Fire
+Escavalier	Bug	Steel
+Espeon	Psychic
+Espurr	Psychic
+Eternatus	Poison	Dragon
+Eternatus-Eternamax	Poison	Dragon
+Excadrill	Ground	Steel
+Exeggcute	Grass	Psychic
+Exeggutor	Grass	Psychic
+Exeggutor-Alola	Grass	Dragon
+Exploud	Normal
+Falinks	Fighting
+Farfetch'd	Normal	Flying
+Farfetch'd-Galar	Fighting
+Fearow	Normal	Flying
+Feebas	Water
+Fennekin	Fire
+Feraligatr	Water
+Ferroseed	Grass	Steel
+Ferrothorn	Grass	Steel
+Finneon	Water
+Flaaffy	Electric
+Flabébé	Fairy
+Flapple	Grass	Dragon
+Flapple-Gmax	Grass	Dragon
+Flareon	Fire
+Fletchinder	Fire	Flying
+Fletchling	Normal	Flying
+Floatzel	Water
+Floette	Fairy
+Floette-Eternal	Fairy
+Florges	Fairy
+Flygon	Ground	Dragon
+Fomantis	Grass
+Foongus	Grass	Poison
+Forretress	Bug	Steel
+Fraxure	Dragon
+Frillish	Water	Ghost
+Froakie	Water
+Frogadier	Water
+Froslass	Ice	Ghost
+Frosmoth	Ice	Bug
+Furfrou	Normal
+Furret	Normal
+Gabite	Dragon	Ground
+Gallade	Psychic	Fighting
+Gallade-Mega	Psychic	Fighting
+Galvantula	Bug	Electric
+Garbodor	Poison
+Garbodor-Gmax	Poison
+Garchomp	Dragon	Ground
+Garchomp-Mega	Dragon	Ground
+Gardevoir	Psychic	Fairy
+Gardevoir-Mega	Psychic	Fairy
+Gastly	Ghost	Poison
+Gastrodon	Water	Ground
+Genesect	Bug	Steel
+Genesect-Burn	Bug	Steel
+Genesect-Chill	Bug	Steel
+Genesect-Douse	Bug	Steel
+Genesect-Shock	Bug	Steel
+Gengar	Ghost	Poison
+Gengar-Gmax	Ghost	Poison
+Gengar-Mega	Ghost	Poison
+Geodude	Rock	Ground
+Geodude-Alola	Rock	Electric
+Gible	Dragon	Ground
+Gigalith	Rock
+Girafarig	Normal	Psychic
+Giratina	Ghost	Dragon
+Giratina-Origin	Ghost	Dragon
+Glaceon	Ice
+Glalie	Ice
+Glalie-Mega	Ice
+Glameow	Normal
+Gligar	Ground	Flying
+Gliscor	Ground	Flying
+Gloom	Grass	Poison
+Gogoat	Grass
+Golbat	Poison	Flying
+Goldeen	Water
+Golduck	Water
+Golem	Rock	Ground
+Golem-Alola	Rock	Electric
+Golett	Ground	Ghost
+Golisopod	Bug	Water
+Golurk	Ground	Ghost
+Goodra	Dragon
+Goomy	Dragon
+Gorebyss	Water
+Gossifleur	Grass
+Gothita	Psychic
+Gothitelle	Psychic
+Gothorita	Psychic
+Gourgeist	Ghost	Grass
+Gourgeist-Large	Ghost	Grass
+Gourgeist-Small	Ghost	Grass
+Gourgeist-Super	Ghost	Grass
+Granbull	Fairy
+Grapploct	Fighting
+Graveler	Rock	Ground
+Graveler-Alola	Rock	Electric
+Greedent	Normal
+Greninja	Water	Dark
+Greninja-Ash	Water	Dark
+Grimer	Poison
+Grimer-Alola	Poison	Dark
+Grimmsnarl	Dark	Fairy
+Grimmsnarl-Gmax	Dark	Fairy
+Grookey	Grass
+Grotle	Grass
+Groudon	Ground
+Groudon-Primal	Ground	Fire
+Grovyle	Grass
+Growlithe	Fire
+Grubbin	Bug
+Grumpig	Psychic
+Gulpin	Poison
+Gumshoos	Normal
+Gumshoos-Totem	Normal
+Gurdurr	Fighting
+Guzzlord	Dark	Dragon
+Gyarados	Water	Flying
+Gyarados-Mega	Water	Dark
+Hakamo-o	Dragon	Fighting
+Happiny	Normal
+Hariyama	Fighting
+Hatenna	Psychic
+Hatterene	Psychic	Fairy
+Hatterene-Gmax	Psychic	Fairy
+Hattrem	Psychic
+Haunter	Ghost	Poison
+Hawlucha	Fighting	Flying
+Haxorus	Dragon
+Heatmor	Fire
+Heatran	Fire	Steel
+Heliolisk	Electric	Normal
+Helioptile	Electric	Normal
+Heracross	Bug	Fighting
+Heracross-Mega	Bug	Fighting
+Herdier	Normal
+Hippopotas	Ground
+Hippowdon	Ground
+Hitmonchan	Fighting
+Hitmonlee	Fighting
+Hitmontop	Fighting
+Ho-Oh	Fire	Flying
+Honchkrow	Dark	Flying
+Honedge	Steel	Ghost
+Hoopa	Psychic	Ghost
+Hoopa-Unbound	Psychic	Dark
+Hoothoot	Normal	Flying
+Hoppip	Grass	Flying
+Horsea	Water
+Houndoom	Dark	Fire
+Houndoom-Mega	Dark	Fire
+Houndour	Dark	Fire
+Huntail	Water
+Hydreigon	Dark	Dragon
+Hypno	Psychic
+Igglybuff	Normal	Fairy
+Illumise	Bug
+Impidimp	Dark	Fairy
+Incineroar	Fire	Dark
+Indeedee	Psychic	Normal
+Indeedee-F	Psychic	Normal
+Infernape	Fire	Fighting
+Inkay	Dark	Psychic
+Inteleon	Water
+Inteleon-Gmax	Water
+Ivysaur	Grass	Poison
+Jangmo-o	Dragon
+Jellicent	Water	Ghost
+Jigglypuff	Normal	Fairy
+Jirachi	Steel	Psychic
+Jolteon	Electric
+Joltik	Bug	Electric
+Jumpluff	Grass	Flying
+Jynx	Ice	Psychic
+Kabuto	Rock	Water
+Kabutops	Rock	Water
+Kadabra	Psychic
+Kakuna	Bug	Poison
+Kangaskhan	Normal
+Kangaskhan-Mega	Normal
+Karrablast	Bug
+Kartana	Grass	Steel
+Kecleon	Normal
+Keldeo	Water	Fighting
+Keldeo-Resolute	Water	Fighting
+Kingdra	Water	Dragon
+Kingler	Water
+Kingler-Gmax	Water
+Kirlia	Psychic	Fairy
+Klang	Steel
+Klefki	Steel	Fairy
+Klink	Steel
+Klinklang	Steel
+Koffing	Poison
+Komala	Normal
+Kommo-o	Dragon	Fighting
+Kommo-o-Totem	Dragon	Fighting
+Krabby	Water
+Kricketot	Bug
+Kricketune	Bug
+Krokorok	Ground	Dark
+Krookodile	Ground	Dark
+Kubfu	Fighting
+Kyogre	Water
+Kyogre-Primal	Water
+Kyurem	Dragon	Ice
+Kyurem-Black	Dragon	Ice
+Kyurem-White	Dragon	Ice
+Lairon	Steel	Rock
+Lampent	Ghost	Fire
+Landorus	Ground	Flying
+Landorus-Therian	Ground	Flying
+Lanturn	Water	Electric
+Lapras	Water	Ice
+Lapras-Gmax	Water	Ice
+Larvesta	Bug	Fire
+Larvitar	Rock	Ground
+Latias	Dragon	Psychic
+Latias-Mega	Dragon	Psychic
+Latios	Dragon	Psychic
+Latios-Mega	Dragon	Psychic
+Leafeon	Grass
+Leavanny	Bug	Grass
+Ledian	Bug	Flying
+Ledyba	Bug	Flying
+Lickilicky	Normal
+Lickitung	Normal
+Liepard	Dark
+Lileep	Rock	Grass
+Lilligant	Grass
+Lillipup	Normal
+Linoone	Normal
+Linoone-Galar	Dark	Normal
+Litleo	Fire	Normal
+Litten	Fire
+Litwick	Ghost	Fire
+Lombre	Water	Grass
+Lopunny	Normal
+Lopunny-Mega	Normal	Fighting
+Lotad	Water	Grass
+Loudred	Normal
+Lucario	Fighting	Steel
+Lucario-Mega	Fighting	Steel
+Ludicolo	Water	Grass
+Lugia	Psychic	Flying
+Lumineon	Water
+Lunala	Psychic	Ghost
+Lunatone	Rock	Psychic
+Lurantis	Grass
+Lurantis-Totem	Grass
+Luvdisc	Water
+Luxio	Electric
+Luxray	Electric
+Lycanroc	Rock
+Lycanroc-Dusk	Rock
+Lycanroc-Midnight	Rock
+Machamp	Fighting
+Machamp-Gmax	Fighting
+Machoke	Fighting
+Machop	Fighting
+Magby	Fire
+Magcargo	Fire	Rock
+Magearna	Steel	Fairy
+Magearna-Original	Steel	Fairy
+Magikarp	Water
+Magmar	Fire
+Magmortar	Fire
+Magnemite	Electric	Steel
+Magneton	Electric	Steel
+Magnezone	Electric	Steel
+Makuhita	Fighting
+Malamar	Dark	Psychic
+Mamoswine	Ice	Ground
+Manaphy	Water
+Mandibuzz	Dark	Flying
+Manectric	Electric
+Manectric-Mega	Electric
+Mankey	Fighting
+Mantine	Water	Flying
+Mantyke	Water	Flying
+Maractus	Grass
+Mareanie	Poison	Water
+Mareep	Electric
+Marill	Water	Fairy
+Marowak	Ground
+Marowak-Alola	Fire	Ghost
+Marowak-Alola-Totem	Fire	Ghost
+Marshadow	Fighting	Ghost
+Marshtomp	Water	Ground
+Masquerain	Bug	Flying
+Mawile	Steel	Fairy
+Mawile-Mega	Steel	Fairy
+Medicham	Fighting	Psychic
+Medicham-Mega	Fighting	Psychic
+Meditite	Fighting	Psychic
+Meganium	Grass
+Melmetal	Steel
+Melmetal-Gmax	Steel
+Meloetta	Normal	Psychic
+Meloetta-Pirouette	Normal	Fighting
+Meltan	Steel
+Meowstic	Psychic
+Meowstic-F	Psychic
+Meowth	Normal
+Meowth-Alola	Dark
+Meowth-Galar	Steel
+Meowth-Gmax	Normal
+Mesprit	Psychic
+Metagross	Steel	Psychic
+Metagross-Mega	Steel	Psychic
+Metang	Steel	Psychic
+Metapod	Bug
+Mew	Psychic
+Mewtwo	Psychic
+Mewtwo-Mega-X	Psychic	Fighting
+Mewtwo-Mega-Y	Psychic
+Mienfoo	Fighting
+Mienshao	Fighting
+Mightyena	Dark
+Milcery	Fairy
+Milotic	Water
+Miltank	Normal
+Mime Jr.	Psychic	Fairy
+Mimikyu	Ghost	Fairy
+Mimikyu-Busted	Ghost	Fairy
+Mimikyu-Busted-Totem	Ghost	Fairy
+Mimikyu-Totem	Ghost	Fairy
+Minccino	Normal
+Minior	Rock	Flying
+Minior-Meteor	Rock	Flying
+Minun	Electric
+Misdreavus	Ghost
+Mismagius	Ghost
+Moltres	Fire	Flying
+Monferno	Fire	Fighting
+Morelull	Grass	Fairy
+Morgrem	Dark	Fairy
+Morpeko	Electric	Dark
+Morpeko-Hangry	Electric	Dark
+Mothim	Bug	Flying
+Mr. Mime	Psychic	Fairy
+Mr. Mime-Galar	Ice	Psychic
+Mr. Rime	Ice	Psychic
+Mudbray	Ground
+Mudkip	Water
+Mudsdale	Ground
+Muk	Poison
+Muk-Alola	Poison	Dark
+Munchlax	Normal
+Munna	Psychic
+Murkrow	Dark	Flying
+Musharna	Psychic
+Naganadel	Poison	Dragon
+Natu	Psychic	Flying
+Necrozma	Psychic
+Necrozma-Dawn-Wings	Psychic	Ghost
+Necrozma-Dusk-Mane	Psychic	Steel
+Necrozma-Ultra	Psychic	Dragon
+Nickit	Dark
+Nidoking	Poison	Ground
+Nidoqueen	Poison	Ground
+Nidoran-F	Poison
+Nidoran-M	Poison
+Nidorina	Poison
+Nidorino	Poison
+Nihilego	Rock	Poison
+Nincada	Bug	Ground
+Ninetales	Fire
+Ninetales-Alola	Ice	Fairy
+Ninjask	Bug	Flying
+Noctowl	Normal	Flying
+Noibat	Flying	Dragon
+Noivern	Flying	Dragon
+Nosepass	Rock
+Numel	Fire	Ground
+Nuzleaf	Grass	Dark
+Obstagoon	Dark	Normal
+Octillery	Water
+Oddish	Grass	Poison
+Omanyte	Rock	Water
+Omastar	Rock	Water
+Onix	Rock	Ground
+Oranguru	Normal	Psychic
+Orbeetle	Bug	Psychic
+Orbeetle-Gmax	Bug	Psychic
+Oricorio	Fire	Flying
+Oricorio-Pa'u	Psychic	Flying
+Oricorio-Pom-Pom	Electric	Flying
+Oricorio-Sensu	Ghost	Flying
+Oshawott	Water
+Pachirisu	Electric
+Palkia	Water	Dragon
+Palossand	Ghost	Ground
+Palpitoad	Water	Ground
+Pancham	Fighting
+Pangoro	Fighting	Dark
+Panpour	Water
+Pansage	Grass
+Pansear	Fire
+Paras	Bug	Grass
+Parasect	Bug	Grass
+Passimian	Fighting
+Patrat	Normal
+Pawniard	Dark	Steel
+Pelipper	Water	Flying
+Perrserker	Steel
+Persian	Normal
+Persian-Alola	Dark
+Petilil	Grass
+Phanpy	Ground
+Phantump	Ghost	Grass
+Pheromosa	Bug	Fighting
+Phione	Water
+Pichu	Electric
+Pichu-Spiky-eared	Electric
+Pidgeot	Normal	Flying
+Pidgeot-Mega	Normal	Flying
+Pidgeotto	Normal	Flying
+Pidgey	Normal	Flying
+Pidove	Normal	Flying
+Pignite	Fire	Fighting
+Pikachu	Electric
+Pikachu-Alola	Electric
+Pikachu-Belle	Electric
+Pikachu-Cosplay	Electric
+Pikachu-Gmax	Electric
+Pikachu-Hoenn	Electric
+Pikachu-Kalos	Electric
+Pikachu-Libre	Electric
+Pikachu-Original	Electric
+Pikachu-Partner	Electric
+Pikachu-PhD	Electric
+Pikachu-Pop-Star	Electric
+Pikachu-Rock-Star	Electric
+Pikachu-Sinnoh	Electric
+Pikachu-Starter	Electric
+Pikachu-Unova	Electric
+Pikachu-World	Electric
+Pikipek	Normal	Flying
+Piloswine	Ice	Ground
+Pincurchin	Electric
+Pineco	Bug
+Pinsir	Bug
+Pinsir-Mega	Bug	Flying
+Piplup	Water
+Plusle	Electric
+Poipole	Poison
+Politoed	Water
+Poliwag	Water
+Poliwhirl	Water
+Poliwrath	Water	Fighting
+Polteageist	Ghost
+Polteageist-Antique	Ghost
+Ponyta	Fire
+Ponyta-Galar	Psychic
+Poochyena	Dark
+Popplio	Water
+Porygon	Normal
+Porygon-Z	Normal
+Porygon2	Normal
+Primarina	Water	Fairy
+Primeape	Fighting
+Prinplup	Water
+Probopass	Rock	Steel
+Psyduck	Water
+Pumpkaboo	Ghost	Grass
+Pumpkaboo-Large	Ghost	Grass
+Pumpkaboo-Small	Ghost	Grass
+Pumpkaboo-Super	Ghost	Grass
+Pupitar	Rock	Ground
+Purrloin	Dark
+Purugly	Normal
+Pyroar	Fire	Normal
+Pyukumuku	Water
+Quagsire	Water	Ground
+Quilava	Fire
+Quilladin	Grass
+Qwilfish	Water	Poison
+Raboot	Fire
+Raichu	Electric
+Raichu-Alola	Electric	Psychic
+Raikou	Electric
+Ralts	Psychic	Fairy
+Rampardos	Rock
+Rapidash	Fire
+Rapidash-Galar	Psychic	Fairy
+Raticate	Normal
+Raticate-Alola	Dark	Normal
+Raticate-Alola-Totem	Dark	Normal
+Rattata	Normal
+Rattata-Alola	Dark	Normal
+Rayquaza	Dragon	Flying
+Rayquaza-Mega	Dragon	Flying
+Regice	Ice
+Regigigas	Normal
+Regirock	Rock
+Registeel	Steel
+Relicanth	Water	Rock
+Remoraid	Water
+Reshiram	Dragon	Fire
+Reuniclus	Psychic
+Rhydon	Ground	Rock
+Rhyhorn	Ground	Rock
+Rhyperior	Ground	Rock
+Ribombee	Bug	Fairy
+Ribombee-Totem	Bug	Fairy
+Rillaboom	Grass
+Rillaboom-Gmax	Grass
+Riolu	Fighting
+Rockruff	Rock
+Roggenrola	Rock
+Rolycoly	Rock
+Rookidee	Flying
+Roselia	Grass	Poison
+Roserade	Grass	Poison
+Rotom	Electric	Ghost
+Rotom-Fan	Electric	Flying
+Rotom-Frost	Electric	Ice
+Rotom-Heat	Electric	Fire
+Rotom-Mow	Electric	Grass
+Rotom-Wash	Electric	Water
+Rowlet	Grass	Flying
+Rufflet	Normal	Flying
+Runerigus	Ground	Ghost
+Sableye	Dark	Ghost
+Sableye-Mega	Dark	Ghost
+Salamence	Dragon	Flying
+Salamence-Mega	Dragon	Flying
+Salandit	Poison	Fire
+Salazzle	Poison	Fire
+Salazzle-Totem	Poison	Fire
+Samurott	Water
+Sandaconda	Ground
+Sandaconda-Gmax	Ground
+Sandile	Ground	Dark
+Sandshrew	Ground
+Sandshrew-Alola	Ice	Steel
+Sandslash	Ground
+Sandslash-Alola	Ice	Steel
+Sandygast	Ghost	Ground
+Sawk	Fighting
+Sawsbuck	Normal	Grass
+Scatterbug	Bug
+Sceptile	Grass
+Sceptile-Mega	Grass	Dragon
+Scizor	Bug	Steel
+Scizor-Mega	Bug	Steel
+Scolipede	Bug	Poison
+Scorbunny	Fire
+Scrafty	Dark	Fighting
+Scraggy	Dark	Fighting
+Scyther	Bug	Flying
+Seadra	Water
+Seaking	Water
+Sealeo	Ice	Water
+Seedot	Grass
+Seel	Water
+Seismitoad	Water	Ground
+Sentret	Normal
+Serperior	Grass
+Servine	Grass
+Seviper	Poison
+Sewaddle	Bug	Grass
+Sharpedo	Water	Dark
+Sharpedo-Mega	Water	Dark
+Shaymin	Grass
+Shaymin-Sky	Grass	Flying
+Shedinja	Bug	Ghost
+Shelgon	Dragon
+Shellder	Water
+Shellos	Water
+Shelmet	Bug
+Shieldon	Rock	Steel
+Shiftry	Grass	Dark
+Shiinotic	Grass	Fairy
+Shinx	Electric
+Shroomish	Grass
+Shuckle	Bug	Rock
+Shuppet	Ghost
+Sigilyph	Psychic	Flying
+Silcoon	Bug
+Silicobra	Ground
+Silvally	Normal
+Silvally-Bug	Bug
+Silvally-Dark	Dark
+Silvally-Dragon	Dragon
+Silvally-Electric	Electric
+Silvally-Fairy	Fairy
+Silvally-Fighting	Fighting
+Silvally-Fire	Fire
+Silvally-Flying	Flying
+Silvally-Ghost	Ghost
+Silvally-Grass	Grass
+Silvally-Ground	Ground
+Silvally-Ice	Ice
+Silvally-Poison	Poison
+Silvally-Psychic	Psychic
+Silvally-Rock	Rock
+Silvally-Steel	Steel
+Silvally-Water	Water
+Simipour	Water
+Simisage	Grass
+Simisear	Fire
+Sinistea	Ghost
+Sinistea-Antique	Ghost
+Sirfetch'd	Fighting
+Sizzlipede	Fire	Bug
+Skarmory	Steel	Flying
+Skiddo	Grass
+Skiploom	Grass	Flying
+Skitty	Normal
+Skorupi	Poison	Bug
+Skrelp	Poison	Water
+Skuntank	Poison	Dark
+Skwovet	Normal
+Slaking	Normal
+Slakoth	Normal
+Sliggoo	Dragon
+Slowbro	Water	Psychic
+Slowbro-Galar	Poison	Psychic
+Slowbro-Mega	Water	Psychic
+Slowking	Water	Psychic
+Slowpoke	Water	Psychic
+Slowpoke-Galar	Psychic
+Slugma	Fire
+Slurpuff	Fairy
+Smeargle	Normal
+Smoochum	Ice	Psychic
+Sneasel	Dark	Ice
+Snivy	Grass
+Snom	Ice	Bug
+Snorlax	Normal
+Snorlax-Gmax	Normal
+Snorunt	Ice
+Snover	Grass	Ice
+Snubbull	Fairy
+Sobble	Water
+Solgaleo	Psychic	Steel
+Solosis	Psychic
+Solrock	Rock	Psychic
+Spearow	Normal	Flying
+Spewpa	Bug
+Spheal	Ice	Water
+Spinarak	Bug	Poison
+Spinda	Normal
+Spiritomb	Ghost	Dark
+Spoink	Psychic
+Spritzee	Fairy
+Squirtle	Water
+Stakataka	Rock	Steel
+Stantler	Normal
+Staraptor	Normal	Flying
+Staravia	Normal	Flying
+Starly	Normal	Flying
+Starmie	Water	Psychic
+Staryu	Water
+Steelix	Steel	Ground
+Steelix-Mega	Steel	Ground
+Steenee	Grass
+Stonjourner	Rock
+Stoutland	Normal
+Stufful	Normal	Fighting
+Stunfisk	Ground	Electric
+Stunfisk-Galar	Ground	Steel
+Stunky	Poison	Dark
+Sudowoodo	Rock
+Suicune	Water
+Sunflora	Grass
+Sunkern	Grass
+Surskit	Bug	Water
+Swablu	Normal	Flying
+Swadloon	Bug	Grass
+Swalot	Poison
+Swampert	Water	Ground
+Swampert-Mega	Water	Ground
+Swanna	Water	Flying
+Swellow	Normal	Flying
+Swinub	Ice	Ground
+Swirlix	Fairy
+Swoobat	Psychic	Flying
+Sylveon	Fairy
+Taillow	Normal	Flying
+Talonflame	Fire	Flying
+Tangela	Grass
+Tangrowth	Grass
+Tapu Bulu	Grass	Fairy
+Tapu Fini	Water	Fairy
+Tapu Koko	Electric	Fairy
+Tapu Lele	Psychic	Fairy
+Tauros	Normal
+Teddiursa	Normal
+Tentacool	Water	Poison
+Tentacruel	Water	Poison
+Tepig	Fire
+Terrakion	Rock	Fighting
+Thievul	Dark
+Throh	Fighting
+Thundurus	Electric	Flying
+Thundurus-Therian	Electric	Flying
+Thwackey	Grass
+Timburr	Fighting
+Tirtouga	Water	Rock
+Togedemaru	Electric	Steel
+Togedemaru-Totem	Electric	Steel
+Togekiss	Fairy	Flying
+Togepi	Fairy
+Togetic	Fairy	Flying
+Torchic	Fire
+Torkoal	Fire
+Tornadus	Flying
+Tornadus-Therian	Flying
+Torracat	Fire
+Torterra	Grass	Ground
+Totodile	Water
+Toucannon	Normal	Flying
+Toxapex	Poison	Water
+Toxel	Electric	Poison
+Toxicroak	Poison	Fighting
+Toxtricity	Electric	Poison
+Toxtricity-Gmax	Electric	Poison
+Toxtricity-Low-Key	Electric	Poison
+Toxtricity-Low-Key-Gmax	Electric	Poison
+Tranquill	Normal	Flying
+Trapinch	Ground
+Treecko	Grass
+Trevenant	Ghost	Grass
+Tropius	Grass	Flying
+Trubbish	Poison
+Trumbeak	Normal	Flying
+Tsareena	Grass
+Turtonator	Fire	Dragon
+Turtwig	Grass
+Tympole	Water
+Tynamo	Electric
+Type: Null	Normal
+Typhlosion	Fire
+Tyranitar	Rock	Dark
+Tyranitar-Mega	Rock	Dark
+Tyrantrum	Rock	Dragon
+Tyrogue	Fighting
+Tyrunt	Rock	Dragon
+Umbreon	Dark
+Unfezant	Normal	Flying
+Unown	Psychic
+Ursaring	Normal
+Urshifu	Fighting	Dark
+Urshifu-Gmax	Fighting	Dark
+Urshifu-Rapid-Strike	Fighting	Water
+Urshifu-Rapid-Strike-Gmax	Fighting	Water
+Uxie	Psychic
+Vanillish	Ice
+Vanillite	Ice
+Vanilluxe	Ice
+Vaporeon	Water
+Venipede	Bug	Poison
+Venomoth	Bug	Poison
+Venonat	Bug	Poison
+Venusaur	Grass	Poison
+Venusaur-Gmax	Grass	Poison
+Venusaur-Mega	Grass	Poison
+Vespiquen	Bug	Flying
+Vibrava	Ground	Dragon
+Victini	Psychic	Fire
+Victreebel	Grass	Poison
+Vigoroth	Normal
+Vikavolt	Bug	Electric
+Vikavolt-Totem	Bug	Electric
+Vileplume	Grass	Poison
+Virizion	Grass	Fighting
+Vivillon	Bug	Flying
+Vivillon-Fancy	Bug	Flying
+Vivillon-Pokeball	Bug	Flying
+Volbeat	Bug
+Volcanion	Fire	Water
+Volcarona	Bug	Fire
+Voltorb	Electric
+Vullaby	Dark	Flying
+Vulpix	Fire
+Vulpix-Alola	Ice
+Wailmer	Water
+Wailord	Water
+Walrein	Ice	Water
+Wartortle	Water
+Watchog	Normal
+Weavile	Dark	Ice
+Weedle	Bug	Poison
+Weepinbell	Grass	Poison
+Weezing	Poison
+Weezing-Galar	Poison	Fairy
+Whimsicott	Grass	Fairy
+Whirlipede	Bug	Poison
+Whiscash	Water	Ground
+Whismur	Normal
+Wigglytuff	Normal	Fairy
+Wimpod	Bug	Water
+Wingull	Water	Flying
+Wishiwashi	Water
+Wishiwashi-School	Water
+Wobbuffet	Psychic
+Woobat	Psychic	Flying
+Wooloo	Normal
+Wooper	Water	Ground
+Wormadam	Bug	Grass
+Wormadam-Sandy	Bug	Ground
+Wormadam-Trash	Bug	Steel
+Wurmple	Bug
+Wynaut	Psychic
+Xatu	Psychic	Flying
+Xerneas	Fairy
+Xerneas-Neutral	Fairy
+Xurkitree	Electric
+Yamask	Ghost
+Yamask-Galar	Ground	Ghost
+Yamper	Electric
+Yanma	Bug	Flying
+Yanmega	Bug	Flying
+Yungoos	Normal
+Yveltal	Dark	Flying
+Zacian	Fairy
+Zacian-Crowned	Fairy	Steel
+Zamazenta	Fighting
+Zamazenta-Crowned	Fighting	Steel
+Zangoose	Normal
+Zapdos	Electric	Flying
+Zarude	Dark	Grass
+Zarude-Dada	Dark	Grass
+Zebstrika	Electric
+Zekrom	Dragon	Electric
+Zeraora	Electric
+Zigzagoon	Normal
+Zigzagoon-Galar	Dark	Normal
+Zoroark	Dark
+Zorua	Dark
+Zubat	Poison	Flying
+Zweilous	Dark	Dragon
+Zygarde	Dragon	Ground
+Zygarde-10%	Dragon	Ground
+Zygarde-Complete	Dragon	Ground
