@@ -1,5 +1,7 @@
 function getSuggestions() {
     var team = [];
+    var noneCount = 0;
+
     len = $(".pokemonSelect").length;
     for (i = 0; i < len; i++) {
         var c = $(".pokemonSelect")[i]
@@ -7,12 +9,19 @@ function getSuggestions() {
 
         var id = $(".pokemonSelect")[i].id.replace("p", "i");
         if (c.selectedIndex != 0) {
+            noneCount += 1;
             $("#".concat(id))[0].src = "../static/images/sprites/".concat(c.options[c.selectedIndex].value.toLowerCase().replace(".", "").replace(" ", ""), ".gif");
             $("#".concat(id))[0].alt = c.options[c.selectedIndex].value;
         } else {
             $("#".concat(id))[0].src = "";
             $("#".concat(id))[0].alt = "";
         };
+    };
+
+    if (noneCount == 6) {
+        $("#inputConfirm")[0].disabled = true;
+    } else {
+        $("#inputConfirm")[0].disabled = false;
     };
 
     var jsonObj = {"team": team}
@@ -75,6 +84,32 @@ function getSuggestions() {
     });
 };
 
+function addToTeam() {
+    var flag = false;
+    var val = -1;
+    for (i = 1; i < $(".pokemonSelect")[0].options.length; i++) {
+        if ($("#pokeInput")[0].value.toLowerCase() == $(".pokemonSelect")[0].options[i].value.toLowerCase()) {
+            flag = true;
+            val = i;
+            break;
+        };
+    };
+
+    if (!flag) {
+        $("#errorMsg")[0].innerHTML = "Unknown Pokemon. Please ensure that the spelling is correct.";
+    } else {
+        $("#errorMsg")[0].innerHTML = "";
+        len = $(".pokemonSelect").length;
+        for (i = 0; i < len; i++) {
+            if ($(".pokemonSelect")[i].selectedIndex == 0) {
+                $(".pokemonSelect")[i].selectedIndex = val;
+                $(".pokemonSelect")[i].onchange();
+                break;
+            };
+        };
+    };
+};
+
 $( document ).ready(function() {
     $.ajax({
         url: "vgcLegalPokemon",
@@ -94,6 +129,8 @@ $( document ).ready(function() {
 
     len = $(".pokemonSelect").length;
     for (i = 0; i < len; i++) {
-        $(".pokemonSelect")[i].onchange = getSuggestions
+        $(".pokemonSelect")[i].onchange = getSuggestions;
     };
+
+    $("#inputConfirm")[0].onclick = addToTeam;
 });

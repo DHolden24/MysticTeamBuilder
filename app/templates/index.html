@@ -1,6 +1,7 @@
 <html>
     <script src="https://code.jquery.com/jquery-2.1.4.min.js"></script>
     <script src="static/js/index.js"></script>
+    <script src="static/js/autocomplete.js"></script>
     <link rel="stylesheet" type="text/css" href="static/css/site_format.css">
     <link rel="shortcut icon" href="static/images/icons/grumpig.png">
     <head>
@@ -34,6 +35,13 @@
             <a href="https://pokemonshowdown.com/">Pokemon Showdown!</a> replays.<br><br>
 
             <div class="selection">
+                <form autocomplete="off">
+                    <div class="autocomplete">
+                        <input id="pokeInput" class="pokemonInput" name="pokemon" placeholder="Pokemon">
+                    </div>
+                    <button type="button" id="inputConfirm">Add to Team</button>
+                    <a id="errorMsg"></a>
+                </form>
                 <form>
                     <select id="p1" name="p1" class="pokemonSelect">
                         <option value="None">None</option>
