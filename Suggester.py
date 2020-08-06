@@ -16,6 +16,8 @@ class Suggester:
         suggested_mons = dict()
         suggested_types = dict()
 
+        selected_mon_list.sort()
+
         for i in range(len(selected_mon_list)):
             output = self.teamNets[0].predict_proba([[selected_mon_list[i]]])[0]
             vals = get_top_values(output, self.teamNets[0].classes_)

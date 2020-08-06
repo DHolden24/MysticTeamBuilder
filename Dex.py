@@ -3,20 +3,20 @@ class Dex:
 
     def __init__(self):
         self.typeDict = self.NameToNumberMap()
-        with open("Web Scraping Scripts and Data/Dex/types.txt") as f:
+        with open("ScriptsAndData/Dex/types.txt") as f:
             for i, l in enumerate(f):
                 self.typeDict.add(i, l.rstrip())
 
         self.monDict = self.NameToNumberMap()
         self.monTypes = dict()
-        with open("Web Scraping Scripts and Data/Dex/sortedNationalDex.txt", encoding="utf8") as f:
+        with open("ScriptsAndData/Dex/sortedNationalDex.txt", encoding="utf8") as f:
             for i, l in enumerate(f):
                 line = l.rstrip().split('\t')
                 self.monDict.add(i, line[0])
                 self.monTypes[line[0]] = line[1::]
 
         legal_mons = set()
-        with open("Web Scraping Scripts and Data/Dex/legalList.txt") as f:
+        with open("ScriptsAndData/Dex/legalList.txt") as f:
             for l in f:
                 legal_mons.add(l.rstrip().split('\t')[0])
         self.legal_mons = list(legal_mons)
@@ -33,6 +33,12 @@ class Dex:
 
     def get_legal_mons(self):
         return self.legal_mons
+
+    def is_legal(self, team):
+        for t in team:
+            if t not in self.legal_mons:
+                return False
+        return True
 
     class NameToNumberMap:
 

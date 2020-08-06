@@ -41,7 +41,7 @@ def build_type_teams(dataFile, primaryPickleFile, secondaryPickleFile):
         print("Done type net {}".format(i))
 
 if __name__=="__main__":
-    build_team_nets("Web Scraping Scripts And Data/Teams/pivotedTeamNumbers", "NeuralNets/TeamSuggest")
-    build_type_teams('Web Scraping Scripts And Data/Teams/pivotedTypeNumbers', "NeuralNets/PrimaryType", "NeuralNets/SecondaryType")
+    build_team_nets("ScriptsAndData/Teams/pivotedTeamNumbers", "NeuralNets/TeamSuggest")
+    build_type_teams("ScriptsAndData/Teams/pivotedTypeNumbers", "NeuralNets/PrimaryType", "NeuralNets/SecondaryType")
 
 
