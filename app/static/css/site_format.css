@@ -52,9 +52,9 @@ body {
 
 .content {
     margin-left: 150px;
-    padding-left: 5px;
-    background-color: #c2a8cf;
+    padding: 5px;
     height: 100%;
+    background-color: #c2a8cf;
 }
 
 .grumpig_sidenav {
@@ -137,4 +137,21 @@ body {
   /*when navigating through the items using the arrow keys:*/
   background-color: DodgerBlue !important;
   color: #ffffff;
+}
+
+table {
+  font-family: arial, sans-serif;
+  border-collapse: collapse;
+  width: 100%;
+  padding-top: 8px;
+}
+
+td, th {
+  border: 2px solid #000000;
+  text-align: left;
+  padding: 8px;
+}
+
+tr:nth-child(even) {
+  background-color: #dddddd;
 }
