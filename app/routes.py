@@ -15,6 +15,10 @@ def home():
 def about():
     return render_template('about.html', title='About')
 
+@app.route('/history')
+def history():
+    return render_template('history.html', title='Change Log')
+
 @app.route('/vgcLegalPokemon', methods=['GET'])
 def legalMons():
     return jsonify(dex.get_legal_mons())
