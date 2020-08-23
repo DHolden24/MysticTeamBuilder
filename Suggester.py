@@ -42,7 +42,6 @@ class Suggester:
 def get_top_legal_mons(output, labels, dex, number=5):
     values = sorted(get_top_values(output, labels, 20), key=lambda item: -item[1])
     return_values = set()
-    print(values)
 
     for (mon, score) in values:
         if dex.is_legal(mon):
