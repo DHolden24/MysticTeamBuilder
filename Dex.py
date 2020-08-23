@@ -34,9 +34,12 @@ class Dex:
     def get_legal_mons(self):
         return self.legal_mons
 
-    def is_legal(self, team):
+    def is_legal(self, mon):
+        return mon in self.legal_mons or self.get_mon(mon) in self.legal_mons
+
+    def is_legal_team(self, team):
         for t in team:
-            if t not in self.legal_mons:
+            if not self.is_legal(t):
                 return False
         return True
 

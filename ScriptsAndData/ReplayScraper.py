@@ -122,7 +122,7 @@ def run(dex, write_loc):
             replay_log = get_replay(host + l.a['href'] + '.log')
 
             new_teams = get_teams_from_replay(replay_log)
-            new_teams = [t for t in new_teams if dex.is_legal(t)]
+            new_teams = [t for t in new_teams if dex.is_legal_team(t)]
 
             for t in new_teams:
                 t.sort()
@@ -145,7 +145,7 @@ def run(dex, write_loc):
             replay_log = get_replay(host + l.a['href'] + '.log')
 
             new_teams = get_teams_from_replay(replay_log)
-            new_teams = [t for t in new_teams if dex.is_legal(t)]
+            new_teams = [t for t in new_teams if dex.is_legal_team(t)]
 
             for t in new_teams:
                 t.sort()

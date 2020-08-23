@@ -12,7 +12,7 @@ class Suggester:
             self.primaryTypeNets.append(pickle.load(open("NeuralNets/PrimaryType" + str(i), 'rb')))
             self.secondaryTypeNets.append(pickle.load(open("NeuralNets/SecondaryType" + str(i), 'rb')))
 
-    def get_suggestions(self, selected_mon_list, selected_type_list):
+    def get_suggestions(self, selected_mon_list, selected_type_list, dex):
         suggested_mons = dict()
         suggested_types = dict()
 
@@ -20,12 +20,12 @@ class Suggester:
 
         for i in range(len(selected_mon_list)):
             output = self.teamNets[0].predict_proba([[selected_mon_list[i]]])[0]
-            vals = get_top_values(output, self.teamNets[0].classes_)
+            vals = get_top_legal_mons(output, self.teamNets[0].classes_, dex)
             add_values_to_dict(vals, suggested_mons)
 
 
         output = self.teamNets[len(selected_mon_list) - 1].predict_proba([selected_mon_list])[0]
-        vals = get_top_values(output, self.teamNets[len(selected_mon_list) - 1].classes_)
+        vals = get_top_legal_mons(output, self.teamNets[len(selected_mon_list) - 1].classes_, dex)
         add_values_to_dict(vals, suggested_mons)
 
         output = self.primaryTypeNets[len(selected_mon_list) - 1].predict_proba([selected_type_list])[0]
@@ -39,8 +39,21 @@ class Suggester:
         return [(m, int(s * 1000) / 1000) for m, s in sorted(suggested_mons.items(), key=lambda item: -item[1]) if m not in selected_mon_list], \
                [(t, int(s * 1000) / 1000) for t, s in sorted(suggested_types.items(), key=lambda item: -item[1])]
 
+def get_top_legal_mons(output, labels, dex, number=5):
+    values = sorted(get_top_values(output, labels, 20), key=lambda item: -item[1])
+    return_values = set()
+    print(values)
 
-def get_top_values(output, labels, number=3, min_value=0.005):
+    for (mon, score) in values:
+        if dex.is_legal(mon):
+            return_values.add((mon, score))
+
+        if len(return_values) >= number:
+            break
+
+    return return_values
+
+def get_top_values(output, labels, number=5, min_value=0.005):
     values = set()
     while len(values) < number:
         maximum = np.amax(output)

@@ -39,7 +39,7 @@ def getSuggestions():
 
         team = [dex.get_mon(p) for p in submitted_team]
 
-        suggested_pokemon, suggested_types = suggester.get_suggestions(team, types)
+        suggested_pokemon, suggested_types = suggester.get_suggestions(team, types, dex)
 
         suggestions = {"note": "None",
                        "pokemon": [(dex.get_mon(p), s) for p, s in suggested_pokemon],
