@@ -1,7 +1,5 @@
 Bulbasaur	Grass	Poison
 Ivysaur	Grass	Poison
-Venusaur	Grass	Poison
-Venusaur-Gmax	Grass	Poison
 Charmander	Fire
 Charmeleon	Fire
 Charizard	Fire	Flying
@@ -20,18 +18,13 @@ Dartrix	Grass	Flying
 Decidueye	Grass	Ghost
 Litten	Fire
 Torracat	Fire
-Incineroar	Fire	Dark
 Popplio	Water
 Brionne	Water
 Primarina	Water	Fairy
 Grookey	Grass
 Thwackey	Grass
-Rillaboom	Grass
-Rillaboom-Gmax	Grass
 Scorbunny	Fire
 Raboot	Fire
-Cinderace	Fire
-Cinderace-Gmax	Fire
 Sobble	Water
 Drizzile	Water
 Inteleon	Water
@@ -182,7 +175,6 @@ Haunter	Ghost	Poison
 Gengar	Ghost	Poison
 Gengar-Gmax	Ghost	Poison
 Magikarp	Water
-Gyarados	Water	Flying
 Goldeen	Water
 Seaking	Water
 Remoraid	Water
@@ -209,7 +201,6 @@ Diglett-Alola	Ground	Steel
 Dugtrio	Ground
 Dugtrio-Alola	Ground	Steel
 Drilbur	Ground
-Excadrill	Ground	Steel
 Roggenrola	Rock
 Boldore	Rock
 Gigalith	Rock
@@ -318,12 +309,10 @@ Clefairy	Fairy
 Clefable	Fairy
 Togepi	Fairy
 Togetic	Fairy	Flying
-Togekiss	Fairy	Flying
 Munchlax	Normal
 Snorlax	Normal
 Snorlax-Gmax	Normal
 Cottonee	Grass	Fairy
-Whimsicott	Grass	Fairy
 Rhyhorn	Ground	Rock
 Rhydon	Ground	Rock
 Rhyperior	Ground	Rock
@@ -360,8 +349,6 @@ Maractus	Grass
 Sigilyph	Psychic	Flying
 Riolu	Fighting
 Lucario	Fighting	Steel
-Torkoal	Fire
-Mimikyu	Ghost	Fairy
 Cufant	Steel
 Copperajah	Steel
 Copperajah-Gmax	Steel
@@ -380,7 +367,6 @@ Silicobra	Ground
 Sandaconda	Ground
 Sandaconda-Gmax	Ground
 Hippopotas	Ground
-Hippowdon	Ground
 Durant	Bug	Steel
 Heatmor	Fire
 Helioptile	Electric	Normal
@@ -406,8 +392,6 @@ Rapidash	Fire
 Rapidash-Galar	Psychic	Fairy
 Sinistea	Ghost
 Polteageist	Ghost
-Indeedee	Psychic	Normal
-Indeedee-F	Psychic	Normal
 Phantump	Ghost	Grass
 Trevenant	Ghost	Grass
 Morelull	Grass	Fairy
@@ -479,7 +463,6 @@ Silvally-Steel	Steel
 Silvally-Water	Water
 Larvitar	Rock	Ground
 Pupitar	Rock	Ground
-Tyranitar	Rock	Dark
 Deino	Dark	Dragon
 Zweilous	Dark	Dragon
 Hydreigon	Dark	Dragon
@@ -491,7 +474,6 @@ Hakamo-o	Dragon	Fighting
 Kommo-o	Dragon	Fighting
 Dreepy	Dragon	Ghost
 Drakloak	Dragon	Ghost
-Dragapult	Dragon	Ghost
 Kubfu	Fighting
 Urshifu	Fighting	Dark
 Urshifu-Gmax	Fighting	Dark
@@ -542,7 +524,6 @@ Emolga	Electric	Flying
 Dedenne	Electric	Fairy
 Magnemite	Electric	Steel
 Magneton	Electric	Steel
-Magnezone	Electric	Steel
 Carvanha	Water	Dark
 Sharpedo	Water	Dark
 Lillipup	Normal
@@ -599,5 +580,4 @@ Exeggcute	Grass	Psychic
 Exeggutor	Grass	Psychic
 Exeggutor-Alola	Grass	Dragon
 Porygon	Normal
-Porygon2	Normal
 Porygon-Z	Normal
