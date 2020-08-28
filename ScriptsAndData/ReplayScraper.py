@@ -94,11 +94,11 @@ def run(dex, write_loc):
             new_teams = get_teams_from_replay(replay_log)
 
             if date > threshold_date:
-                teams.extend(new_teams)
+                teams.extend([t for t in new_teams if dex.is_legal_team(t)])
 
             rating = int(''.join(c for c in l.a.small.text[-5::] if c.isdigit()))
             while rating > 1600:
-                teams.extend(new_teams)
+                teams.extend([t for t in new_teams if dex.is_legal_team(t)])
                 rating -= 100
 
             for t in new_teams:
@@ -110,7 +110,7 @@ def run(dex, write_loc):
 
     page = 1
     print("Retrieving OU Doubles Teams")
-    while page != 11:
+    while page != 16:
         print("Retrieving page {}".format(page))
         response = get_page(page, search_ou_doubles)
 
@@ -133,7 +133,7 @@ def run(dex, write_loc):
 
     page = 1
     print("Retrieving UU Doubles Teams")
-    while page != 11:
+    while page != 16:
         print("Retrieving page {}".format(page))
         response = get_page(page, search_uu_doubles)
 

@@ -40,7 +40,7 @@ class Suggester:
                [(t, int(s * 1000) / 1000) for t, s in sorted(suggested_types.items(), key=lambda item: -item[1])]
 
 def get_top_legal_mons(output, labels, dex, number=5):
-    values = sorted(get_top_values(output, labels, 4 * number), key=lambda item: -item[1])
+    values = sorted(get_top_values(output, labels, 3 * number), key=lambda item: -item[1])
     return_values = set()
 
     for (mon, score) in values:
@@ -53,7 +53,7 @@ def get_top_legal_mons(output, labels, dex, number=5):
     return return_values
 
 def get_top_values(output, labels, number=5, min_value=0.005):
-    number = min([output, number])
+    number = min([len(output), number])
     values = set()
 
     while len(values) < number:
