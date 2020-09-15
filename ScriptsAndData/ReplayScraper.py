@@ -6,7 +6,8 @@ import datetime
 from Dex import Dex
 
 host = "https://replay.pokemonshowdown.com"
-search_vgc = "/search?user=&format=gen8vgc2020&rating&page={}"
+search_battle_stadium_doubles = "/search?user=&format=gen8vgc2020&rating&page={}"
+search_vgc = "/search?user=&format=gen8battlestadiumdoubles&rating&page={}"
 search_ou_doubles = "/search?user=&format=gen8doublesou&rating&page={}"
 search_uu_doubles = "/search?user=&format=gen8doublesuu&rating&page={}"
 
@@ -72,86 +73,62 @@ def write_teams(file_name, teams):
     with open(file_name, 'wb') as f:
         pickle.dump(teams, f)
 
+def get_teams(path, page, unique_teams, teams, threshold_date, dex):
+    print("Retrieving page {}".format(page))
+    response = get_page(page, path)
+
+    soup = BeautifulSoup(response.text, 'html.parser')
+    replay_links = soup.findAll("li")[-50:]
+
+    print("{} replays found".format(len(replay_links)))
+    for l in replay_links:
+        replay_log = get_replay(host + l.a['href'] + '.log')
+        date = get_date(host + l.a['href'])
+
+        new_teams = get_teams_from_replay(replay_log)
+
+        if date > threshold_date:
+            teams.extend([t for t in new_teams if dex.is_legal_team(t)])
+
+        rating = int(''.join(c for c in l.a.small.text[-5::] if c.isdigit()))
+        while rating > 1600:
+            teams.extend([t for t in new_teams if dex.is_legal_team(t)])
+            rating -= 100
+
+        for t in new_teams:
+            t.sort()
+            unique_teams.add(tuple(t))
+
+    print("Finished page {}, {} teams collected".format(page, len(unique_teams)))
+    return teams, unique_teams
+
 def run(dex, write_loc):
     unique_teams = set()
     teams = []
-    page = 1
     threshold_date = (datetime.datetime(2020, 6, 24) - datetime.datetime(1970,1,1)).total_seconds()
 
-    print("Retrieving VGC Teams")
+    page = 1
+    print("Retrieving Battle Stadium Teams")
     while page != 26:
-        print("Retrieving page {}".format(page))
-        response = get_page(page, search_vgc)
+        teams, unique_teams = get_teams(search_battle_stadium_doubles, page, unique_teams, teams, threshold_date, dex)
+        page += 1
 
-        soup = BeautifulSoup(response.text, 'html.parser')
-        replay_links = soup.findAll("li")[-50:]
-
-        print("{} replays found".format(len(replay_links)))
-        for l in replay_links:
-            replay_log = get_replay(host + l.a['href'] + '.log')
-            date = get_date(host + l.a['href'])
-
-            new_teams = get_teams_from_replay(replay_log)
-
-            if date > threshold_date:
-                teams.extend([t for t in new_teams if dex.is_legal_team(t)])
-
-            rating = int(''.join(c for c in l.a.small.text[-5::] if c.isdigit()))
-            while rating > 1600:
-                teams.extend([t for t in new_teams if dex.is_legal_team(t)])
-                rating -= 100
-
-            for t in new_teams:
-                t.sort()
-                unique_teams.add(tuple(t))
-
-        print("Finished page {}, {} teams collected".format(page, len(unique_teams)))
+    page = 1
+    print("Retrieving VGC Teams")
+    while page != 16:
+        teams, unique_teams = get_teams(search_vgc, page, unique_teams, teams, threshold_date, dex)
         page += 1
 
     page = 1
     print("Retrieving OU Doubles Teams")
     while page != 16:
-        print("Retrieving page {}".format(page))
-        response = get_page(page, search_ou_doubles)
-
-        soup = BeautifulSoup(response.text, 'html.parser')
-        replay_links = soup.findAll("li")[-50:]
-
-        print("{} replays found".format(len(replay_links)))
-        for l in replay_links:
-            replay_log = get_replay(host + l.a['href'] + '.log')
-
-            new_teams = get_teams_from_replay(replay_log)
-            new_teams = [t for t in new_teams if dex.is_legal_team(t)]
-
-            for t in new_teams:
-                t.sort()
-                unique_teams.add(tuple(t))
-
-        print("Finished page {}, {} teams collected".format(page, len(unique_teams)))
+        teams, unique_teams = get_teams(search_ou_doubles, page, unique_teams, teams, threshold_date, dex)
         page += 1
 
     page = 1
     print("Retrieving UU Doubles Teams")
     while page != 16:
-        print("Retrieving page {}".format(page))
-        response = get_page(page, search_uu_doubles)
-
-        soup = BeautifulSoup(response.text, 'html.parser')
-        replay_links = soup.findAll("li")[-50:]
-
-        print("{} replays found".format(len(replay_links)))
-        for l in replay_links:
-            replay_log = get_replay(host + l.a['href'] + '.log')
-
-            new_teams = get_teams_from_replay(replay_log)
-            new_teams = [t for t in new_teams if dex.is_legal_team(t)]
-
-            for t in new_teams:
-                t.sort()
-                unique_teams.add(tuple(t))
-
-        print("Finished page {}, {} teams collected".format(page, len(unique_teams)))
+        teams, unique_teams = get_teams(search_uu_doubles, page, unique_teams, teams, threshold_date, dex)
         page += 1
 
     teams.extend([list(t) for t in unique_teams])
