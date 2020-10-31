@@ -270,6 +270,7 @@ Espeon	Psychic
 Umbreon	Dark
 Murkrow	Dark	Flying
 Slowking	Water	Psychic
+Slowking-Galar	Poison	Psychic
 Misdreavus	Ghost
 Unown	Psychic
 Wobbuffet	Psychic
@@ -1142,3 +1143,13 @@ Urshifu-Gmax	Fighting	Dark
 Urshifu-Rapid-Strike-Gmax	Fighting	Water
 Zarude	Dark	Grass
 Zarude-Dada	Dark	Grass
+Regieleki	Electric
+Regidrago	Dragon
+Glastrier	Ice
+Spectrier	Ghost
+Zapdos-Galar	Fighting	Flying
+Moltres-Galar	Dark	Flying
+Articuno-Galar	Psychic	Flying
+Calyrex Psychic	Grass
+Calyrex-Ice-Rider	Psychic	Ice
+Calyrex-Shadow-Rider	Psychic	Ghost

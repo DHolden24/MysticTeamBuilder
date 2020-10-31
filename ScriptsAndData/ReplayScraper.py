@@ -6,10 +6,10 @@ import datetime
 from Dex import Dex
 
 host = "https://replay.pokemonshowdown.com"
-search_battle_stadium_doubles = "/search?user=&format=gen8vgc2020&rating&page={}"
-search_vgc = "/search?user=&format=gen8battlestadiumdoubles&rating&page={}"
-search_ou_doubles = "/search?user=&format=gen8doublesou&rating&page={}"
-search_uu_doubles = "/search?user=&format=gen8doublesuu&rating&page={}"
+search_main_format = "/search?user=&format=gen8vgc2021&rating&page={}"
+search_similar_formats = ["/search?user=&format=gen8vgc2020&rating&page={}",
+                          "/search?user=&format=gen8doublesou&rating&page={}",
+                          "/search?user=&format=gen8doublesuu&rating&page={}"]
 
 def get_page(page, site):
     sleep(10)
@@ -108,28 +108,18 @@ def run(dex, write_loc):
     threshold_date = (datetime.datetime(2020, 6, 24) - datetime.datetime(1970,1,1)).total_seconds()
 
     page = 1
-    print("Retrieving Battle Stadium Teams")
+    print("Retrieving Main Format Teams: " + search_main_format)
     while page != 26:
-        teams, unique_teams = get_teams(search_battle_stadium_doubles, page, unique_teams, teams, threshold_date, dex)
+        teams, unique_teams = get_teams(search_main_format, page, unique_teams, teams, threshold_date, dex)
         page += 1
 
-    page = 1
-    print("Retrieving VGC Teams")
-    while page != 16:
-        teams, unique_teams = get_teams(search_vgc, page, unique_teams, teams, threshold_date, dex)
-        page += 1
+    for alt_format in search_similar_formats:
+        page = 1
+        print("Retrieving Teams from Replay Link: " + alt_format)
+        while page != 8:
+            teams, unique_teams = get_teams(alt_format, page, unique_teams, teams, threshold_date, dex)
+            page += 1
 
-    page = 1
-    print("Retrieving OU Doubles Teams")
-    while page != 16:
-        teams, unique_teams = get_teams(search_ou_doubles, page, unique_teams, teams, threshold_date, dex)
-        page += 1
-
-    page = 1
-    print("Retrieving UU Doubles Teams")
-    while page != 16:
-        teams, unique_teams = get_teams(search_uu_doubles, page, unique_teams, teams, threshold_date, dex)
-        page += 1
 
     teams.extend([list(t) for t in unique_teams])
     print("Writing {} sample teams".format(len(teams)))

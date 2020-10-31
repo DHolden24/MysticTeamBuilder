@@ -59,6 +59,7 @@ Aromatisse	Fairy
 Aron	Steel	Rock
 Arrokuda	Water
 Articuno	Ice	Flying
+Articuno-Galar	Psychic	Flying
 Audino	Normal
 Audino-Mega	Normal	Fairy
 Aurorus	Rock	Ice
@@ -124,6 +125,9 @@ Butterfree-Gmax	Bug	Flying
 Buzzwole	Bug	Fighting
 Cacnea	Grass
 Cacturne	Grass	Dark
+Calyrex Psychic	Grass
+Calyrex-Ice-Rider	Psychic	Ice
+Calyrex-Shadow-Rider	Psychic	Ghost
 Camerupt	Fire	Ground
 Camerupt-Mega	Fire	Ground
 Carbink	Rock	Fairy
@@ -374,6 +378,7 @@ Glaceon	Ice
 Glalie	Ice
 Glalie-Mega	Ice
 Glameow	Normal
+Glastrier	Ice
 Gligar	Ground	Flying
 Gliscor	Ground	Flying
 Gloom	Grass	Poison
@@ -638,6 +643,7 @@ Minun	Electric
 Misdreavus	Ghost
 Mismagius	Ghost
 Moltres	Fire	Flying
+Moltres-Galar	Dark	Flying
 Monferno	Fire	Fighting
 Morelull	Grass	Fairy
 Morgrem	Dark	Fairy
@@ -798,6 +804,8 @@ Rattata-Alola	Dark	Normal
 Rayquaza	Dragon	Flying
 Rayquaza-Mega	Dragon	Flying
 Regice	Ice
+Regidrago	Dragon
+Regieleki	Electric
 Regigigas	Normal
 Regirock	Rock
 Registeel	Steel
@@ -926,6 +934,7 @@ Slowbro	Water	Psychic
 Slowbro-Galar	Poison	Psychic
 Slowbro-Mega	Water	Psychic
 Slowking	Water	Psychic
+Slowking-Galar	Poison	Psychic
 Slowpoke	Water	Psychic
 Slowpoke-Galar	Psychic
 Slugma	Fire
@@ -945,6 +954,7 @@ Solgaleo	Psychic	Steel
 Solosis	Psychic
 Solrock	Rock	Psychic
 Spearow	Normal	Flying
+Spectrier	Ghost
 Spewpa	Bug
 Spheal	Ice	Water
 Spinarak	Bug	Poison
@@ -1128,6 +1138,7 @@ Zamazenta	Fighting
 Zamazenta-Crowned	Fighting	Steel
 Zangoose	Normal
 Zapdos	Electric	Flying
+Zapdos-Galar	Fighting	Flying
 Zarude	Dark	Grass
 Zarude-Dada	Dark	Grass
 Zebstrika	Electric
