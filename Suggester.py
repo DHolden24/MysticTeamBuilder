@@ -8,9 +8,9 @@ class Suggester:
         self.primaryTypeNets = []
         self.secondaryTypeNets = []
         for i in range(1, 6):
-            self.teamNets.append(pickle.load(open("NeuralNets/TeamSuggest" + str(i), 'rb')))
-            self.primaryTypeNets.append(pickle.load(open("NeuralNets/PrimaryType" + str(i), 'rb')))
-            self.secondaryTypeNets.append(pickle.load(open("NeuralNets/SecondaryType" + str(i), 'rb')))
+            self.teamNets.append(pickle.load(open("Classifiers/TeamSuggest" + str(i), 'rb')))
+            self.primaryTypeNets.append(pickle.load(open("Classifiers/PrimaryType" + str(i), 'rb')))
+            self.secondaryTypeNets.append(pickle.load(open("Classifiers/SecondaryType" + str(i), 'rb')))
 
     def get_suggestions(self, selected_mon_list, selected_type_list, dex):
         suggested_mons = dict()

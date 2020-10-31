@@ -1,5 +1,7 @@
 Bulbasaur	Grass	Poison
 Ivysaur	Grass	Poison
+Venusaur	Grass	Poison
+Venusaur-Gmax	Grass	Poison
 Charmander	Fire
 Charmeleon	Fire
 Charizard	Fire	Flying
@@ -13,18 +15,24 @@ Slowpoke-Galar	Psychic
 Slowbro	Water	Psychic
 Slowbro-Galar	Poison	Psychic
 Slowking	Water	Psychic
+Slowking-Galar	Poison	Psychic
 Rowlet	Grass	Flying
 Dartrix	Grass	Flying
 Decidueye	Grass	Ghost
 Litten	Fire
 Torracat	Fire
+Incineroar	Fire	Dark
 Popplio	Water
 Brionne	Water
 Primarina	Water	Fairy
 Grookey	Grass
 Thwackey	Grass
+Rillaboom	Grass
+Rillaboom-Gmax	Grass
 Scorbunny	Fire
 Raboot	Fire
+Cinderace	Fire
+Cinderace-Gmax	Fire
 Sobble	Water
 Drizzile	Water
 Inteleon	Water
@@ -175,6 +183,7 @@ Haunter	Ghost	Poison
 Gengar	Ghost	Poison
 Gengar-Gmax	Ghost	Poison
 Magikarp	Water
+Gyarados	Water	Flying
 Goldeen	Water
 Seaking	Water
 Remoraid	Water
@@ -201,6 +210,7 @@ Diglett-Alola	Ground	Steel
 Dugtrio	Ground
 Dugtrio-Alola	Ground	Steel
 Drilbur	Ground
+Excadrill	Ground	Steel
 Roggenrola	Rock
 Boldore	Rock
 Gigalith	Rock
@@ -309,10 +319,12 @@ Clefairy	Fairy
 Clefable	Fairy
 Togepi	Fairy
 Togetic	Fairy	Flying
+Togekiss	Fairy	Flying
 Munchlax	Normal
 Snorlax	Normal
 Snorlax-Gmax	Normal
 Cottonee	Grass	Fairy
+Whimsicott	Grass	Fairy
 Rhyhorn	Ground	Rock
 Rhydon	Ground	Rock
 Rhyperior	Ground	Rock
@@ -349,6 +361,8 @@ Maractus	Grass
 Sigilyph	Psychic	Flying
 Riolu	Fighting
 Lucario	Fighting	Steel
+Torkoal	Fire
+Mimikyu	Ghost	Fairy
 Cufant	Steel
 Copperajah	Steel
 Copperajah-Gmax	Steel
@@ -367,6 +381,7 @@ Silicobra	Ground
 Sandaconda	Ground
 Sandaconda-Gmax	Ground
 Hippopotas	Ground
+Hippowdon	Ground
 Durant	Bug	Steel
 Heatmor	Fire
 Helioptile	Electric	Normal
@@ -392,6 +407,8 @@ Rapidash	Fire
 Rapidash-Galar	Psychic	Fairy
 Sinistea	Ghost
 Polteageist	Ghost
+Indeedee	Psychic	Normal
+Indeedee-F	Psychic	Normal
 Phantump	Ghost	Grass
 Trevenant	Ghost	Grass
 Morelull	Grass	Fairy
@@ -463,6 +480,7 @@ Silvally-Steel	Steel
 Silvally-Water	Water
 Larvitar	Rock	Ground
 Pupitar	Rock	Ground
+Tyranitar	Rock	Dark
 Deino	Dark	Dragon
 Zweilous	Dark	Dragon
 Hydreigon	Dark	Dragon
@@ -474,6 +492,7 @@ Hakamo-o	Dragon	Fighting
 Kommo-o	Dragon	Fighting
 Dreepy	Dragon	Ghost
 Drakloak	Dragon	Ghost
+Dragapult	Dragon	Ghost
 Kubfu	Fighting
 Urshifu	Fighting	Dark
 Urshifu-Gmax	Fighting	Dark
@@ -524,6 +543,7 @@ Emolga	Electric	Flying
 Dedenne	Electric	Fairy
 Magnemite	Electric	Steel
 Magneton	Electric	Steel
+Magnezone	Electric	Steel
 Carvanha	Water	Dark
 Sharpedo	Water	Dark
 Lillipup	Normal
@@ -580,4 +600,119 @@ Exeggcute	Grass	Psychic
 Exeggutor	Grass	Psychic
 Exeggutor-Alola	Grass	Dragon
 Porygon	Normal
+Porygon2	Normal
 Porygon-Z	Normal
+Nidoran-F	Poison
+Nidorina	Poison
+Nidoqueen	Poison	Ground
+Nidoran-M	Poison
+Nidorino	Poison
+Nidoking	Poison	Ground
+Jynx	Ice	Psychic
+Smoochum	Ice	Psychic
+Omanyte	Rock	Water
+Omastar	Rock	Water
+Kabuto	Rock	Water
+Kabutops	Rock	Water
+Aerodactyl	Rock	Flying
+Articuno	Ice	Flying
+Zapdos	Electric	Flying
+Moltres	Fire	Flying
+Dratini	Dragon
+Dragonair	Dragon
+Dragonite	Dragon	Flying
+Zubat	Poison	Flying
+Golbat	Poison	Flying
+Crobat	Poison	Flying
+Raikou	Electric
+Entei	Fire
+Suicune	Water
+Treecko	Grass
+Grovyle	Grass
+Sceptile	Grass
+Torchic	Fire
+Combusken	Fire	Fighting
+Blaziken	Fire	Fighting
+Mudkip	Water
+Marshtomp	Water	Ground
+Swampert	Water	Ground
+Aron	Steel	Rock
+Lairon	Steel	Rock
+Aggron	Steel	Rock
+Swablu	Normal	Flying
+Altaria	Dragon	Flying
+Lileep	Rock	Grass
+Cradily	Rock	Grass
+Anorith	Rock	Bug
+Armaldo	Rock	Bug
+Absol	Dark
+Spheal	Ice	Water
+Sealeo	Ice	Water
+Walrein	Ice	Water
+Relicanth	Water	Rock
+Bagon	Dragon
+Shelgon	Dragon
+Salamence	Dragon	Flying
+Beldum	Steel	Psychic
+Metang	Steel	Psychic
+Metagross	Steel	Psychic
+Regirock	Rock
+Regice	Ice
+Registeel	Steel
+Latias	Dragon	Psychic
+Latios	Dragon	Psychic
+Spiritomb	Ghost	Dark
+Gible	Dragon	Ground
+Gabite	Dragon	Ground
+Garchomp	Dragon	Ground
+Elekid	Electric
+Electabuzz	Electric
+Electivire	Electric
+Magby	Fire
+Magmar	Fire
+Magmortar	Fire
+Uxie	Psychic
+Mesprit	Psychic
+Azelf	Psychic
+Heatran	Fire	Steel
+Regigigas	Normal
+Cresselia	Psychic
+Audino	Normal
+Tirtouga	Water	Rock
+Carracosta	Water	Rock
+Archen	Rock	Flying
+Archeops	Rock	Flying
+Cryogonal	Ice
+Tornadus	Flying
+Tornadus-Therian	Flying
+Thundurus	Electric	Flying
+Thundurus-Therian	Electric	Flying
+Landorus	Ground	Flying
+Landorus-Therian	Ground	Flying
+Tyrunt	Rock	Dragon
+Tyrantrum	Rock	Dragon
+Amaura	Rock	Ice
+Aurorus	Rock	Ice
+Carbink	Rock	Fairy
+Tapu Koko	Electric	Fairy
+Tapu Lele	Psychic	Fairy
+Tapu Bulu	Grass	Fairy
+Tapu Fini	Water	Fairy
+Nihilego	Rock	Poison
+Buzzwole	Bug	Fighting
+Pheromosa	Bug	Fighting
+Xurkitree	Electric
+Celesteela	Steel	Flying
+Kartana	Grass	Steel
+Guzzlord	Dark	Dragon
+Poipole	Poison
+Naganadel	Poison	Dragon
+Stakataka	Rock	Steel
+Blacephalon	Fire	Ghost
+Regieleki	Electric
+Regidrago	Dragon
+Glastrier	Ice
+Spectrier	Ghost
+Zapdos-Galar	Fighting	Flying
+Moltres-Galar	Dark	Flying
+Articuno-Galar	Psychic	Flying

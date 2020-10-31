@@ -1,7 +1,7 @@
 import ScriptsAndData.ReplayScraper as rs
 import ScriptsAndData.TeamMunger as tm
 from Dex import Dex
-import NetBuilder
+import ClassifierBuilder
 
 if __name__=="__main__":
     dex = Dex()
@@ -9,5 +9,5 @@ if __name__=="__main__":
     rs.run(dex, "ScriptsAndData/Teams/rawTeams.pkl")
     tm.run("ScriptsAndData/Teams/", "ScriptsAndData/Dex/")
 
-    NetBuilder.build_team_nets("ScriptsAndData/Teams/pivotedTeamNumbers", "NeuralNets/TeamSuggest")
-    NetBuilder.build_type_teams("ScriptsAndData/Teams/pivotedTypeNumbers", "NeuralNets/PrimaryType", "NeuralNets/SecondaryType")
+    ClassifierBuilder.build_team_nets("ScriptsAndData/Teams/pivotedTeamNumbers", "Classifiers/TeamSuggest")
+    ClassifierBuilder.build_type_teams("ScriptsAndData/Teams/pivotedTypeNumbers", "Classifiers/PrimaryType", "Classifiers/SecondaryType")

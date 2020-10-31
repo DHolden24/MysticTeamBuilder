@@ -26,8 +26,7 @@ with open("Dex/legalList.txt") as f:
         file = "../app/static/images/sprites/" + l + ".gif"
 
         if not path.exists(file):
-            print(l)
-
+            print("Retrieveing gif for " + l)
             try:
                 response = requests.get(pokemon + l + ".gif")
             except Exception:
@@ -38,7 +37,7 @@ with open("Dex/legalList.txt") as f:
                 with open(file, 'wb') as t:
                     t.write(response.content)
             else:
-                print(l)
+                print("Failed to get gif for " + l)
 
 
             sleep(2)
