@@ -1,7 +1,8 @@
-from sklearn.neural_network import MLPClassifier
+# from sklearn.neural_network import MLPClassifier
 from sklearn.ensemble import RandomForestClassifier
 import numpy as np
 import pickle
+import os
 
 def build_team_nets(dataFile, pickleFile):
     for i in range(1, 6):
@@ -17,6 +18,10 @@ def build_team_nets(dataFile, pickleFile):
         clf = RandomForestClassifier(n_estimators=50, max_depth=10, max_leaf_nodes=50)
 
         clf.fit(x, y)
+
+        if os.path.exists(pickleFile + str(6 - i)):
+            os.remove(pickleFile + str(6 - i))
+
         with open(pickleFile + str(6 - i), 'wb') as f:
             pickle.dump(clf, f)
         print("Done team classifier {}".format(i))
@@ -35,6 +40,10 @@ def build_type_teams(dataFile, primaryPickleFile, secondaryPickleFile):
         clf1 = RandomForestClassifier(n_estimators=50, max_depth=10, max_leaf_nodes=50)
 
         clf1.fit(x, y1)
+
+        if os.path.exists(primaryPickleFile + str(6 - i)):
+            os.remove(primaryPickleFile + str(6 - i))
+
         with open(primaryPickleFile + str(6 - i), 'wb') as f:
             pickle.dump(clf1, f)
 
@@ -44,6 +53,10 @@ def build_type_teams(dataFile, primaryPickleFile, secondaryPickleFile):
         clf2 = RandomForestClassifier(n_estimators=50, max_depth=10, max_leaf_nodes=50)
 
         clf2.fit(x, y2)
+
+        if os.path.exists(secondaryPickleFile + str(6 - i)):
+            os.remove(secondaryPickleFile + str(6 - i))
+
         with open(secondaryPickleFile + str(6 - i), 'wb') as f:
             pickle.dump(clf2, f)
         print("Done type classifier {}".format(i))

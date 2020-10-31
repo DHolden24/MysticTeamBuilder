@@ -4,7 +4,15 @@ from Dex import Dex
 from Suggester import Suggester
 
 dex = Dex()
-suggester = Suggester()
+try:
+    suggester = Suggester()
+except ValueError:
+    import ClassifierBuilder
+
+    ClassifierBuilder.build_team_nets("ScriptsAndData/Teams/pivotedTeamNumbers", "Classifiers/TeamSuggest")
+    ClassifierBuilder.build_type_teams("ScriptsAndData/Teams/pivotedTypeNumbers", "Classifiers/PrimaryType",
+                                       "Classifiers/SecondaryType")
+    suggester = Suggester()
 
 @app.route('/')
 @app.route('/home')
